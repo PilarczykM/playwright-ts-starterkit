@@ -23,7 +23,6 @@ For more advanced scenarios, you can extend Playwright's functionality with libr
 ### Prerequisites
 
 *   [Node.js](https://nodejs.org/en/) (v18 or higher)
-*   [pnpm](https://pnpm.io/installation) (optional, but recommended)
 
 ### Installation
 
@@ -33,7 +32,7 @@ For more advanced scenarios, you can extend Playwright's functionality with libr
     ```
 2.  Install dependencies:
     ```bash
-    pnpm install
+    npm install
     ```
 
 ## Running Tests
@@ -41,7 +40,7 @@ For more advanced scenarios, you can extend Playwright's functionality with libr
 To run the tests, use the following command:
 
 ```bash
-pnpm test
+npm test
 ```
 
 ## Project Structure
