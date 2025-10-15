@@ -1,0 +1,34 @@
+{
+  "author": "Marcin Pilarczyk",
+  "bugs": {
+    "url": "https://github.com/PilarczykM/playwright-ts-starterkit/issues"
+  },
+  "description": "A ready-to-use Playwright starter kit for end-to-end testing in JavaScript/TypeScript — includes recommended libraries, configuration, and project structure for fast and maintainable test automation.",
+  "devDependencies": {
+    "@biomejs/biome": "2.2.6",
+    "@playwright/test": "^1.56.0",
+    "@types/node": "^24.7.2"
+  },
+  "homepage": "https://github.com/PilarczykM/playwright-ts-starterkit#readme",
+  "keywords": [
+    "playwright",
+    "typescript",
+    "e2e",
+    "testing",
+    "starter-kit"
+  ],
+  "license": "ISC",
+  "main": "index.js",
+  "name": "playwright-ts-starterkit",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PilarczykM/playwright-ts-starterkit.git"
+  },
+  "scripts": {
+    "format": "npx @biomejs/biome format --write ./tests",
+    "lint": "npx @biomejs/biome check ./tests",
+    "test": "npx playwright test"
+  },
+  "type": "commonjs",
+  "version": "1.0.0"
+}

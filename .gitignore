@@ -1,0 +1,16 @@
+
+# JavaScript/TypeScript
+node_modules/
+dist/
+build/
+out/
+.env
+.env.local
+.env.*.local
+
+# Playwright
+/test-results/
+/playwright-report/
+/blob-report/
+/playwright/.cache/
+/playwright/.auth/
