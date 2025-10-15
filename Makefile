@@ -8,7 +8,7 @@ help:
 
 lint:
 	@echo "Linting..."
-	npx @biomejs/biome lint --write ./tests
+	npx @biomejs/biome check ./tests
 
 format:
 	@echo "Formatting..."

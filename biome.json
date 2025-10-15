@@ -11,9 +11,7 @@
   },
   "files": {
     "ignoreUnknown": false,
-    "includes": [
-      "**/*.{js,ts,json}"
-    ]
+    "includes": ["**/*.{js,ts,json}"]
   },
   "formatter": {
     "enabled": true,
