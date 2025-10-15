@@ -1,9 +1,10 @@
-PHONY: help lint
+PHONY: help lint format test
 
 help:
 	@echo "Available commands:"
 	@echo "  lint  - Check for linting errors"
 	@echo "  format - Format the codebase"
+	@echo "  test  - Run the test suite"
 
 lint:
 	@echo "Linting..."
