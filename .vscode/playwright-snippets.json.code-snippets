@@ -19,8 +19,10 @@
         "scope": "javascript,typescript",
         "prefix": "pwt",
         "body": [
-            "test('${1}',{tag:'@${2}'}, async ({ ${3} }) => {${4}});",
-        ],
+			"test('${1}', async ({ ${2:page} }) => {",
+			"\t${0}",
+			"});"
+		],
         "description": "Generate a Playwright test function"
     },
 	"Playwright Test Step": {
@@ -35,17 +37,11 @@
         "scope": "javascript,typescript",
         "prefix": "exv",
         "body": [
-            "await expect(${1}).toBeVisible();",
+            "await test.step('${1}', async () => {",
+			"\t${0}",
+			"});"
         ],
         "description": "Generate expect locator to be visible code"
-    },
-    "Expect toEqual": {
-        "scope": "javascript,typescript",
-        "prefix": "exe",
-        "body": [
-            "await expect(${1}).toEqual(${2});",
-        ],
-        "description": "Generate expect recieved value to be equal to predefined value"
     },
     "Expect toHaveText": {
         "scope": "javascript,typescript",
